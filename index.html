@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>XMP to lrtemplate converter</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="media.css">
+</head>
+<body>
+	<section class="home__wrapper">
+		<div class="container">
+			<div class="home__box">
+				<div class="home-title__box">
+					<h1>XMP to lrtemplate<br><span>converter</span></h1>
+					<p>For $ 0,5 per preset, convert your presets in <br> a matter of minute</p>
+				</div>
+				<form method="post" action="?" enctype="multipart/form-data" novalidate class="box">
+					<div class="form__box">
+						 <div class="box__input">
+							<input type="file" name="files[]" id="file" class="box__file" data-multiple-caption="{count} files selected" multiple />
+							<label for="file">Drop your files here or click <span class="box__dragndrop"> browse</span></label>
+						 </div>
+						 <div class="box__uploading">Uploading11</div>
+						 <div class="box__success">Done! <a href="#0" class="box__restart" role="button">Upload more?</a></div>
+						 <div class="box__error">Error! <span></span>. <a href="#0" class="box__restart" role="button">Try again!</a></div>
+					</div>	
+					<button type="submit" class="box__button">Upload</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section class="how__wrapper">
+		<div class="container">
+			<div class="how__box">
+				<h2>How to convert .XMP to .lrtempalte yourself?</h2>
+				<p>Starting with Lightroom 7.3, the way you save and manage presets has changed. Lightroom versions 7.3 and higher can only accept and read .lrtempaltes. <br><br>
+				The only way at the moment to convert .xmp to .lrtempalte on your own consists of the following: <br>
+				 1. Used 2 versions of Lightroom simultaneously: older than 7.3 and younger than 7.3. As a younger version, it is recommended to use Lightroom generation 4 (for example, Lightroom 4.3). <br>
+				 2. In the older version of Lightroom, you need to export your presets in .dng format. <br>
+				 3. Then load your presets as .dng files into the 	Lightroom minor version. You can export your presets in .lrtemplate format.</p>
+				<h2>Can you convert .lrtemplate to a .XMP file?</h2>
+				<p>Any new version of Lightroom above 7.3 will accept .lrtemplate files and automatically convert them to an XMP file. <br>
+				 To do this, you need to click File> Import Profiles and Templates to import them later. <br>
+				 After downloading the .lrtempalte files, restart Lightroom, and wait a few seconds. Conversion will happen pretty quickly, and your presets will be converted to .XMP format.</p>
+			</div>
+		</div>
+	</section>
+	<section class="ad__wrapper">
+		<div class="container">
+			<div class="ad__box">
+				<img src="img/ad-logo.svg" alt="">
+				<p class="ad-title">Unlimited converter</p>
+			</div>
+		</div>
+	</section>
+	<section class="product__wrapper">
+		<div class="container">
+			<div class="product__box">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Ss130sNXlXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="product__info">
+					<h2>Buy our application for only <br> $ 12 and get the opportunity to convert unlimited presets</h2>
+					<p>If you often need to convert your templates, you can use XMP in templates and vice versa - our conversion application. <br> Everything is very simple!</p>
+					<div class="product__links">
+						<a href="javascript:void(0);">Windows</a><a href="javascript:void(0);">Mac OS</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact__wrapper">
+		<div class="container">
+			<div class="contact__box">
+				<p>If you still have questions - write to us. We will be happy to help you.</p>
+				<form action="">
+					<textarea name="" id="" cols="30" rows="10" placeholder="your question"></textarea>
+					<div class="form-input__box">
+						<input type="email" placeholder="your email">
+						<input type="submit" value="submit">
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer class=footer__wrapper>
+		<div class="container">
+			<div class="footer__box">
+				<a href="">info@converter.com</a>
+				<div class="footer-info">
+					<p>©2020 xmp-lrt Converter. All Rights Reserved</p>
+					<div class="footer__links">
+						<a href="">Pivacy Policy</a>
+						<a href="">Terms of Use</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

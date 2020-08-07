@@ -1,0 +1,121 @@
+@media screen and (max-width: 1200px){
+	.container{
+		padding: 0 15px;
+	}
+	.home__wrapper{
+		padding: 20px 0px;
+	}
+	.home__box h1{
+		font-size: 30px;
+		line-height: 30px;
+		text-align: center;
+		margin: 0 auto 35px;
+	}
+	.home-title__box p{
+		text-align: center;
+		margin-bottom: 35px;
+	}
+	.home__box{
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.ad__box{
+		flex-direction: column;
+	}
+	.product__box{
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	form{
+		display: flex;
+		flex-direction: column;
+	}
+	.how__wrapper{
+		padding: 60px 0px 30px;
+	}
+	.how__box h2{
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.ad__wrapper{
+		padding: 45px 0px 35px;
+	}
+	.ad-title{
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.product__wrapper{
+		padding: 60px 0px 45px;
+	}
+	.product__info{
+		width: 100%;
+	}
+	.product__box iframe{
+		margin-bottom: 15px;
+	}
+	.product__info h2{
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.product__links{
+		flex-direction: column;
+	}
+	.product__links a{
+		width: 100%;
+		margin: 0 0 25px 0;
+	}
+	.footer__links{
+		display: flex;
+		flex-direction: column;
+	}
+	.form-input__box input[type="email"]{
+		width: 100%;
+		margin: 0px 0px 15px 0px;
+	}
+	.form-input__box input[type="submit"]{
+		width: 100%;
+	}
+	.progress__wrapper .home__box h1{
+		line-height: 45px;
+	}
+	.convert__wrapper.home__wrapper{
+		padding: 35px 0px 90px;
+	}
+	.convert__wrapper .home__box h1{
+		line-height: 44px;
+	}
+	.result__box{
+		flex-direction: column;
+	}
+	.total__box{
+		margin-right: 0px;
+		margin-bottom: 35px;
+	}
+	.download-title{
+		line-height: 50px;
+	}
+	.convert-items__box{
+		margin-bottom: 25px;
+	}
+	.convert-items li p{
+		flex-direction: column;
+	}
+	.convert-items li{
+		position: relative;
+	}
+	.convert-items li > span{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+	.convert-items__box{
+		justify-content: center;
+	}
+	.convert-items__box{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
