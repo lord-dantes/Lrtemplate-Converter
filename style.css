@@ -315,6 +315,9 @@ body{
 	color: #666666;
 	margin: 0px 0px 35px;
 }
+.product__links.product__links-mobile{
+	display: none;
+}
 .product__links{
 	display: flex;
 	justify-content: center;
@@ -334,6 +337,10 @@ body{
 	font-size: 16px;
 	color: #FFFFFF;
 	margin: 0px 54px 0px 0px;
+	transition: all 300ms;
+}
+.product__links a:hover{
+	background: #5760AD;
 }
 
 /* contact */
@@ -404,7 +411,12 @@ body{
 	text-align: center;
 	letter-spacing: 1.2px;
 	text-transform: uppercase;
+	transition: all 300ms;
 	color: #FFFFFF;
+	cursor: pointer;
+}
+.form-input__box input[type="submit"]:hover{
+	background: #7D7D7D;
 }
 
 /* footer */
