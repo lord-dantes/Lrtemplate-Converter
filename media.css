@@ -60,12 +60,21 @@
 		height: 100%;
 	}
 	.how__wrapper{
-		padding: 60px 0px 30px;
+		padding: 42px 0px 30px;
 	}
 	.how__box h2{
 		font-size: 18px;
 		line-height: 20px;
 		margin-bottom: 15px;
+	}
+	.how__box h2:nth-child(3){
+		display: none;
+	}
+	.how__box p:nth-child(4){
+		display: none;
+	}
+	.how__box p{
+		padding: 0px 10px 0px 0px;
 	}
 	.ad-title{
 		font-size: 37px;
@@ -92,6 +101,14 @@
 	}
 	.product__info p{
 		padding-right: 4px;
+		margin-bottom: 11px;
+	}
+	.product__info p br, .product__info p span{
+		display: none;
+	}
+	.product__info p:nth-child(3){
+		display: block;
+		margin-bottom: 40px
 	}
 	.product__links{
 		width: 100%;
@@ -108,14 +125,14 @@
 	}
 	.form-input__box input[type="email"]{
 		width: 100%;
-		/* max-width: 220px; */
+		max-width: 255px;
 		margin: 0px 13px 15px 0px;
 	}
 	.form-input__box input[type="submit"]{
 		width: 100%;
 	}
 	.progress__wrapper{
-		padding: 53px 10px 72px;
+		padding: 53px 10px 85px;
 	}
 	.progress-line{
 		margin-right: 20px;
@@ -205,6 +222,10 @@
 		padding-left: 13px;
 		margin-bottom: 25px;
 	}
+	.convert-items__box .convert-items:nth-child(2){
+		max-height: 285px;
+		overflow: hidden;
+	}
 	.convert-items li p{
 		flex-direction: column;
 	}
@@ -251,5 +272,11 @@
 	.how__box{
 		max-width: 555px;
 		margin: 0 auto;
+	}
+	.contact__box p{
+		margin-bottom: 40px;
+	}
+	.form-group{
+		display: none;
 	}
 }

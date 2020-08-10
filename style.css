@@ -315,6 +315,9 @@ body{
 	color: #666666;
 	margin: 0px 0px 35px;
 }
+.product__info p:nth-child(3){
+	display: none;
+}
 .product__links.product__links-mobile{
 	display: none;
 }
@@ -498,6 +501,11 @@ form{
 .box.has-advanced-upload .box__dragndrop {
   display: inline;
   text-decoration: underline;
+  transition: all 300ms;
+  cursor: pointer;
+}
+.box__dragndrop:hover{
+	color: #4196B0;
 }
 
 .box.is-uploading .box__input,
@@ -630,16 +638,57 @@ form{
 
 .box__button:hover, .box__button:focus {
   background-color: #FF7070;
+  outline: 0;
+}
+/* form */
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
 }
 
-
-/* vh */
-/* .container{max-width: 150vh;}
-.how__box h2{
-	font-size: 1.8vh;
-	line-height: 2vh
+.form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
 }
-.how__box p{
-	font-size: 2vh;
-	line-height: 2vh;
-} */
+
+.form-group label {
+	display: flex;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+.form-group label::before {
+  content:'';
+  display: block;
+  width: 15px;
+	height: 15px;
+	background: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 2px;
+	margin-right: 7px;
+}
+
+.form-group input:checked + label::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: 1px;
+  width: 13px;
+  height: 10px;
+  background: url(img/checker.svg);
+  background-size: cover;
+}
